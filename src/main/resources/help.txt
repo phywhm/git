@@ -5,4 +5,13 @@ git reset HEAD <file>
 git status
 git commit/git commit -a -m 'sth'
 git pull
-git push
+git push [remote] [branch]
+git rm [-f]
+git log -p -2/git log -<n>/git log --state/git log --pretty=oneline/git log --pretty=format:"%h - %an, %ar : %s"/git log --since=2.weeks
+git log [--author --since --before --no-merges]
+git commit --amend //补充提交
+git checkout 撤销文件修改
+git remote [-v]
+git fetch [remote name] [branch]
+git remote [show rname] [rename from to] [rm rname]
+git tag [-l <pattern>]
