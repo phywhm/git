@@ -1,0 +1,8 @@
+git config
+git init
+git add
+git reset HEAD <file>
+git status
+git commit/git commit -a -m 'sth'
+git pull
+git push
