@@ -26,3 +26,5 @@ git log --oneline --decorate --graph --all //查看分叉历史
 git branch -d [branch] //删除分支
 git merge [branch] //将目标分支合并至当前分支
 git branch [-v] //查看所有分支 [显示最后一次提交的信息]
+git branch --merged/--no-merged //查看已合并到当前分支的分支
+git ls-remote //远程引用完整列表
