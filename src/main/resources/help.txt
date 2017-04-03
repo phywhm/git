@@ -15,4 +15,14 @@ git remote [-v]
 git fetch [remote name] [branch]
 git remote [show rname] [rename from to] [rm rname]
 git tag [-l <pattern>]
-do stm diff
+git push [branch] [tagname]
+git push --tags //推送所有不在远程仓库上的标签
+git checkout -b [branch] [tagname] //在指定标签上创建新分支，因为不能检出一个标签
+git config --global alias.co checkout //别名例1
+git config --global alias.unstage 'reset HEAD --' //别名例2
+git branch testing //创建分支
+git log --oneline --decorate //查看分支
+git log --oneline --decorate --graph --all //查看分叉历史
+git branch -d [branch] //删除分支
+git merge [branch] //将目标分支合并至当前分支
+git branch [-v] //查看所有分支 [显示最后一次提交的信息]
