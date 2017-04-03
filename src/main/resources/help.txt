@@ -28,3 +28,4 @@ git merge [branch] //将目标分支合并至当前分支
 git branch [-v] //查看所有分支 [显示最后一次提交的信息]
 git branch --merged/--no-merged //查看已合并到当前分支的分支
 git ls-remote //远程引用完整列表
+git push --set-upstream [origin] [testing] //设置远程对应分支，可以直接调用
